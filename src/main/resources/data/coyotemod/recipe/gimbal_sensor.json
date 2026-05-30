@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    " I ",
+    " C "
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone" },
+    "I": { "item": "minecraft:iron_block" },
+    "C": { "item": "minecraft:copper_ingot" }
+  },
+  "result": {
+    "id": "coyotemod:gimbal_sensor",
+    "count": 1
+  }
+}

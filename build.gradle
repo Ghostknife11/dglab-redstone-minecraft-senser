@@ -1,0 +1,35 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = mod_version
+group = mod_group
+base { archivesName = mod_id }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = neoforge_version
+    mods { "${mod_id}" { sourceSet sourceSets.main } }
+    runs {
+        client { client() }
+        server { server() }
+    }
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+    implementation 'com.google.zxing:core:3.5.3'
+    implementation 'com.google.zxing:javase:3.5.3'
+    implementation('org.java-websocket:Java-WebSocket:1.6.0') { exclude group: 'org.slf4j' }
+
+    // Bundle into mod JAR
+    jarJar('com.google.zxing:core:3.5.3')
+    jarJar('com.google.zxing:javase:3.5.3')
+    jarJar('org.java-websocket:Java-WebSocket:1.6.0')
+}
+
+processResources {
+    filesMatching("**/neoforge.mods.toml") { expand(["mod_version": mod_version]) }
+}

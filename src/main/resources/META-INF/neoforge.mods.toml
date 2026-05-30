@@ -1,0 +1,17 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "coyotemod"
+version = "${mod_version}"
+displayName = "Coyote Redstone Link"
+logoFile = "coyote_logo.png"
+description = "Links redstone signal strength to DG-Lab Coyote device output via WebSocket."
+
+[[dependencies.coyotemod]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"

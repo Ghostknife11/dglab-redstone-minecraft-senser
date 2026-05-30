@@ -1,4 +1,4 @@
-# Coyote Redstone Link
+# dglab Redstone Link
 
 Minecraft NeoForge 1.21.1 mod that links redstone signal strength to DG-Lab Coyote device output via WebSocket.
 

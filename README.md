@@ -36,4 +36,14 @@ Output: `build/libs/coyotemod-1.0.0.jar`
 
 ## License
 
-MIT
+Copyright (C) 2026 Ghostknife and contributors.
+
+Original project code is licensed under **GPL-3.0-only**, with the additional
+[Minecraft / NeoForge linking permission](LICENSES/Minecraft-linking-exception.txt).
+The former MIT grant is retained in [LICENSES/Legacy-MIT.txt](LICENSES/Legacy-MIT.txt)
+for the historical revisions that were published under it.
+
+This is the author's licensing choice for new revisions. Merely using the
+DG-Lab WebSocket protocol does not by itself establish a GPL requirement.
+Third-party dependencies keep their own licenses; see
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

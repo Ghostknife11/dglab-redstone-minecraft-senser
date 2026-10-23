@@ -1,0 +1,16 @@
+Additional permission under GNU GPL version 3 section 7
+
+Copyright (C) 2026 Ghostknife and contributors
+
+For original code in this project whose copyright holders grant this
+permission, you may link or combine the Program with Minecraft, NeoForge,
+and the separately licensed libraries supplied as part of those programs,
+and convey the resulting work. You must comply with the GNU General Public
+License version 3 for all covered parts. Corresponding Source must include
+the source for the covered parts, but need not include Minecraft or those
+separately licensed game libraries. This permission does not grant any
+right to redistribute Minecraft or change any third-party license.
+
+This permission does not apply to third-party code which does not grant it.
+You may extend this permission to your modifications, but are not required
+to do so. Otherwise remove this permission from your version.

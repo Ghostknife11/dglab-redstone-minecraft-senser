@@ -33,3 +33,9 @@ dependencies {
 processResources {
     filesMatching("**/neoforge.mods.toml") { expand(["mod_version": mod_version]) }
 }
+
+tasks.withType(Jar).configureEach {
+    from('LICENSE') { into 'META-INF' }
+    from('LICENSES') { into 'META-INF/licenses' }
+    from('THIRD_PARTY_NOTICES.md') { into 'META-INF' }
+}
